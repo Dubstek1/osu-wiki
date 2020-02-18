@@ -59,51 +59,52 @@
   - 가장 높은 난이도와 비슷한 난이도의 경우, Insane 및 Extra 난이도에만 적용됩니다. (예시: ENHIIII 세트의 Insane 난이도 또는 ENHIIXXX 세트의 Extra 난이도)
 - **비트맵셋의 사용자 지정 난이도는 노래나 난이도에 관련된 일반적인 주제나 패턴을 따라야 하며, 잘못 해석되어서는 안됩니다.** (예시: "Expert" 수준의 어려움을 가진 난이도를 "Normal" 난이도로 명명함.)
 **난이도명은 유저 이름으로 명명될수 없습니다.** 우연히 유저 이름이 노래와 관련되어 있다면 예외로 받아들여질수 있습니다. 
-- **비트맵 셋의 호스트의 이름은 난이도명에 포함될 수 없습니다. (예시: 비트맵 셋 호스트 이름's Insane).** 다수의 곡을 닉네임과 동일한 메타데이터로 비트맵화하여 생기거나 콜라보 난이도만이 유일한 예외가 될 수 있습니다. 그러나, 게스트 난이도는 해당 창작자의 사용자 이름이나 유저명으로 난이도 명을 지을수 있습니다.
+- **비트맵 셋의 호스트의 이름은 난이도명에 포함될 수 없습니다. (예시: 비트맵 셋 호스트 유저명's Insane).** 다수의 곡을 닉네임과 동일한 메타데이터로 비트맵화하여 생기거나 콜라보 난이도만이 유일한 예외가 될 수 있습니다. 그러나, 게스트 난이도는 해당 창작자의 사용자 이름이나 유저명으로 난이도 명을 지을수 있습니다.
 
 - **비트맵셋의 주인은 게스트 난이도보다 동일하거나 더 많은 수량의 난이도를 만들어야 합니다.** 이것은 신용이 있어야 할 곳에 신용을 제공하기 위함입니다. 콜라보 난이도는 부분적인것으로 간주되며, 게스트 매퍼가 비트맵셋 호스트보다 더 많은 양을 매핑한경우, 드레인 타임이 비트맵 공헌도를 계산하는데 사용됩니다.
-- **A beatmapset host and guest beatmap creators can make changes to their respective difficulties as they wish.** If there is a disagreement between both, the beatmapset host must delete the guest contribution upon request. If a guest beatmap creator cannot be contacted for a month, they will be assumed to agree with any changes.
 
-### Guidelines
+- **비트맵셋 호스트와 게스트 난이도의 창작자는 각자의 난이도를 원하는대로 변경할수 있습니다. 둘 사이에 이견이 있는 경우, 비트맵셋 호스트는 요청시에 게스트 난이도를 삭제해야합니다. 한 달 동안 게스트 비트맵 매퍼에게 연락 할수없는 경우 변경 사항에 동의하는 것으로 간주됩니다.
 
-- **The highest difficulty of a beatmapset should correspond to the general feel of the song.** Easy/Normal difficulties can be used as a lone difficulty of a beatmapset if their rhythms are not oversimplified. A Hard difficulty or beyond should be included otherwise.
-- **Avoid incomprehensible username combinations to indicate possession of a collaborative guest difficulty.** If it's unclear whose usernames are combined, simplification is recommended.
-- **Avoid difficulty names with descriptive elements not clearly related to a guest difficulty creator or a level of difficulty.** (e.g. Beatmap Creator's Tragic Love Extra)
-- **Usernames indicating possession of a guest difficulty should be consistent between multiple beatmapsets.** Varying nicknames for one user makes interpreting who created a difficulty ambiguous or misleading.
-- **Avoid non-alphanumeric unicode characters in a difficulty's name.** These can cause errors with the beatmap submission system and problems for certain users when appearing in chat.
+### Guidelines(가이드라인)
 
-## Metadata
+- **비트맵의 가장 높은 난이도는 노래의 일반적인 느낌과 일치해야 합니다. (노래에 어울리게 매핑되야 합니다.)** Easy/Normal 난이도는 리듬이 지나치게 단순화되지 않은 경우 비트맵셋의 유일한 난이도로 사용될 수 있습니다. 그 외에는 Hard 난이도나 그 이상의 난이도가 포함되어야 합니다.
+- **콜라보 난이도에 소유를 나타내기 위해 이해하기 어려운 유저명 조합을 피하십시오.** 어떤 유저들이 소유하는지 명확하지 않은경우, 단순화해서 표기하십시오.
+- **게스트 매퍼의 난이도나, 난이도 레벨에 명확하게 관련되지 않은 요소가 있는 난이도명은 피하십시오. ** (예시: 비트맵 셋 호스트 's Tragic Love Extra)
+- **게스트 난이도의 소유를 나타내는 유저명은 여러 비트맵셋에 일관성있게 적혀져야합니다.** 한 유저에 대한 별명을 다르게 표기하면 누가 난이도를 만들었는지 해석이 모호하거나 오해의 소지가 발생할수 있습니다.
+- **난이도 이름에 알파벳이 아닌 유니코드 문자를 사용하지 마십시오.** 이는 비트맵을 업로드 할때 오류를 발생시키거나, 특정 사용자에게 문제를 야기할 수 있습니다.
 
-### Glossary
+## Metadata(메타 데이터)
 
-- **Official sources**: Media that the artist or their label provides, such as official websites, CD Scans, or official uploads to websites like Bandcamp, YouTube, or SoundCloud. Third party websites such as wikis, databases (vndb, vgmdb, etc.), or music services (Spotify, iTunes, Amazon, etc.) do not count as official sources.
+### Glossary(용어사전)
+
+- **Official sources(공식 출처)**: 아티스트 또는 레이블이 제공하는 미디어(예: 공식 웹 사이트, CD 복사본, Bandcamp, YouTube, SoundCloud 같은 웹 사이트에 공식적으로 업로드...). 위키, 데이터베이스(vndb, vgmdb 등) 또는 음악 서비스(Spotify, iTunes, Amazon 등)와 같은 제3자 웹사이트는 공식 출처로 간주되지 않습니다.
 - **vs.**: versus
 - **feat.**: featuring
-- **CV**: character voice, usually used to refer to the voice actor of a fictional character.
+- **CV**: character voice의 준말이며 보통 가상 캐릭터 성우를 지칭할때 사용합니다.
 - **Asterisk**: `*`
-- **Umlauts**: `ü`, `ö`, `ä` and `ß`
-- **Whitespace**: A visual spacing between characters, not always a literal space. Full-width characters do not require whitespaces.
-- **TV Size**: A song where the particular version is used in a television program, web series, or direct-to-video series, such as an opening, ending, or insert song. Fan-made works are not included in this.
-- **Modified Hepburn romanisation**: Refer to [this page](https://en.wikipedia.org/wiki/Hepburn_romanization#Features) for information.
-- **Character-by-character romanisation**: Each Chinese character must be romanised as a capitalised word and separated with a space.
+- **Umlauts**: `ü`, `ö`, `ä` and `ß` (움라우트: 독일의 모음)
+- **Whitespace(여백, 띄어쓰기)**: 문자 사이의 시각적 간격, 항상 문자 그대로의 공간은 아닙니다. 풀 와이드 문자의 경우 띄어쓰기를 필요로 하지 않습니다.
+- **TV Size**: tv 프로그램, 웹 시리즈 또는 직접 비디오 시리즈에서 특정 버전이 사용되는곡(예시: 오프닝, 엔딩 또는 삽입곡)을 말합니다. 팬이 만든 작품은 여기에 포함되지 않습니다.
+- **Modified Hepburn romanisation(햅번 로마자 표기법)**: 자세한건 [이 페이지](https://en.wikipedia.org/wiki/Hepburn_romanization#Features) 를 참조하십시오.
+- **Character-by-character romanisation(문자별 로마자 표기법)**: 각 한자(대표적으로 중국 한자 또는 그 외 영어권에서 종종 쓰이는 한자 포함)는 대문자로 시작하는 단어로 로마자화하고 띄어쓰기로 구분해야 합니다.
 
-### Rules
+### Rules(규칙)
 
-#### Technical
+#### Technical(표기법)
 
-- **Metadata must be consistent across all difficulties of a beatmapset.**
-- **Guest mappers, storyboarders, skinners and hitsounders must be added to the tags of a beatmapset.** This is to give credit where credit is due and help others identify the main contributors of any given beatmapset. Usernames containing single characters separated by whitespaces must have the whitespaces replaced with underscores.
-- **Official Sources must be used as references for metadata unless none are available.** In that case use what is most common and recognizable.
-- **Do not modify the metadata an artist provides on official sources unless said modification is done in order to comply with formatting and standardisation rules on this Ranking Criteria.**
-- **The artists of a song must be traceable to existing people.** If there is no existing person recorded to be the artist, then `Unknown Artist` is to be used. Fictional characters or programs like Vocaloids cannot be used as the sole artist of any given song.
-- **You must use the Source field if the song comes from or is directly tied to another media such as a video game, movie, series, etc.** Website names, album names, or BMS are not acceptable sources. If the song was featured or tied to a media after it was released, the source field is optional. `osu!` may be used as a source for osu!'s Featured Artist content. If a song has multiple potential sources, any options are valid. For remixes, arrangements, or covers based upon the original song, the source(s) of the original song would apply in the same way.
-  - In cases where a Song Compilation/Remix/Medley/etc. has songs without a common source, the sources must be put in the tags instead of the source field.
-- **Metadata that exceeds the field's limits (81 characters) must be shortened.** Start by dropping additional markers and if this still is not sufficient, indicate that the title has been shortened using `...` in a sensible place.
-- **If the artist or title fields were shortened to fit in field limits, the omitted information must be added to the tags.**
-- **If the song mapped is a licensed one in the featured artist library, `featured artist` must be added to tags.**
-- **Tags must be related to the beatmap and not misleading for search results.** Tags describing the beatmap's style, song, storyboard, video, or background content are considered to be related to the beatmap.
+- **메타데이터는 비트맵셋의 모든 난이도에서 일관되어야 합니다.**
+- **게스트 매퍼, 스토리보더, 스킨 제작자, 히트 사운더 등을 비트맵셋의 태그에 추가하셔야 합니다.** 이것은 신용이 있어야 할 곳에 신용을 주고 다른 사람들이 주어진 비트맵셋의 주요 기여자임을 식별하는것을 돕기 위한 것입니다. 공백(띄어쓰기)가 사용된 유저명에는 띄어쓰기 대신에 언더바 (_) 로 대체되어야 합니다. (예시: [ Zzz ] ->[_Zzz_])
+- **공식 소스는 사용 가능한것이 없는것이 아니라면 메타데이터의 출처를 밝히기 위해 사용되어야 합니다.** 이 경우 가장 흔하고 알아볼 수 있는것을 사용하십시오.
+- **랭킹 크리테리아에 명시된 기본적인 룰을 준수하기 위해 아티스트가 공식 출처에서 제공하는 메타데이터를 수정하지 마십시오.**
+- **한 곡의 아티스트는 현존하는 사람 모두가 찾을수 있어야 합니다.** 만약 아티스트로 기록된 사람이 없을 경우, `Unknown Artist` 를 사용하셔야 합니다. 픽션 캐릭터나 보컬로이드 같은 프로그램은 아티스트로 사용될 수 없습니다.
+- **노래가 비디오 게임, 영화, 시리즈 등과 같은 다른 미디어에서 나오거나 직접 연결된 경우 출처 필드를 사용하셔야 합니다.** 웹사이트나 앨범 이름은 출처로 표시될 수 없습니다. 노래가 발매된 후 미디어에 피처링되거나 함께 묶여있는 경우, 출처 필드는 선택사항입니다. `osu!` 는 Featured Artist content의 출처로 사용될 수 있습니다. 한 곡에 여러개의 출처가 존재할 경우, 어떤 옵션이든 출처 필드에 넣으실 수 있습니다. 원곡을 바탕으로 한 리믹스, 편곡, 커버의 경우, 원곡의 출처가 같은 방식으로 적용됩니다.
+  - Song Compilation(음악 모음집)/Remix(리믹스)/Medely(메들리)와 같이 공통된 출처가 없는 경우, 이들과 관련된 출처들은 출처 필드 대신에 태그에 표기해야 합니다.
+- **필드의 한계(81자)를 초과하는 메타데이터는 반드시 단축해야 합니다.** 추가 마커를 삭제하는 것으로 단축 작업을 시작하시고 만약 그래도 충분히 단축되지 않았을 경우 `...` 를 사용하여 제목이 줄었음을 표시하십시오.
+- **아티스트 또는 제목 필드가 필드 제한에 맞게 단축 된 경우 생략 된 정보를 태그에 추가해야합니다.**
+- **노래가 Featured artist 라이브러리에 라이센스가있는 노래인 경우, `featured artist` 를 태그에 추가해야합니다.**
+- **태그는 비트 맵과 관련이 있어야하며 검색 결과를 오도하지 않아야합니다. ** 비트 맵의 스타일, 노래(가사), 스토리 보드, 비디오 또는 배경 내용을 설명하는 태그는 비트맵과 관련된 것으로 간주됩니다.
 
-#### Standardisation
+#### Standardisation(표쥰화)
 
 All forms of Artist/Title standardisation apply to both the `Romanised` and `Unicode` fields, excluding standardised whitespaces for full-width characters.
 
