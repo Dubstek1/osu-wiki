@@ -120,47 +120,47 @@
 - **타이틀의 일부를 그룹화하기 위해 기호를 사용하는 경우, 그룹 전후에 공백(띄어쓰기)이 사용되어야 하지만 그룹 내의 기호 바로 앞이나 뒤에 사용되어서는 안됩니다.**
 - **출처로 적용되는 시리즈에 하위 시리즈가 포함 된 경우 가장 정확한 레이블을 출처로 사용해야합니다.** (예시: 애니 극장판 OP/ED는 원작 애니가 아닌 극장판 이름을 출처로 표기해야 합니다.) 노래에 적용 가능한 하위 시리즈가 여러 개인 경우 메인 시리즈 / 프랜차이즈를 대신 사용할 수 있습니다.
 
-#### Romanisation
+#### Romanisation(로마자화)
 
-- **Artist names are to be romanised in the order they are printed in the unicode fields.**
-- **Loan words from other languages have to use the original words in their stead when attempting to romanise them.**
-- **When a song uses repeat words in the title or in the artist where one is in unicode, and the other as a basic romanisation, the romanised field must use the provided romanisation only and remove the duplicate word.**
-- **Songs with German metadata must romanise umlauts into two-letter equivalents (`ue`, `oe`, `ae` and `ss`).**
-- **Songs with Russian/Cyrillic metadata are to be romanised using the BGN/PCGN system method in romanised fields.** The same applies to the Source field if a romanised Source is preferred by the mapper. Е and е should be romanised as `ye` if it stands alone or after `a`, `e`, `ё`, `и`, `о`, `у`, `ы`, `э`, `ю`, `я`, `й`, `ъ`, `ь`. In other cases, it should be romanised as `e`. `ё` should be romanised to `yo`, however, use `o` if the character comes after `ж`, `ч`, `ш`, or `щ`. Ignore any other rules in the file provided, these are either irrelevant or would not help in the game. For most of the other characters, refer to the [first page of this document](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/807920/ROMANIZATION_OF_RUSSIAN.pdf).
-- **Songs with Japanese metadata must use the Modified Hepburn romanisation method in romanised fields.** The same applies to the Source field if a romanised Source is preferred by the mapper. As a non-unicode field, long vowels such as `おう` and `うう` should be romanised into `ou` and `uu` to avoid macrons.
-- **Songs with Chinese metadata are to be handled with respect to the tones and dialects of Chinese they belong to using character-by-character romanisation method with the exception of artist names.** In any case, all diacritical tone marks must be omitted:
-  - Mandarin metadata must be romanised using the Hanyu Pinyin system.
-  - Cantonese metadata must be romanised by using the Jyutping system.
-  - If the song falls into neither category, this choice is left up to the mapper's discretion and contacting a native speaker is recommended.
+- **작곡가의 이름은 유니코드 필드에선 로마자 표기법이 적용된 상태로 표기되어야 합니다.**
+- **다른 언어의 외래어들은 로마자 표기법을 사용하여 원래의 단어로 표기해야 합니다.**
+- **한 곡의 제목 또는 유니코드 필드에 있는 아티스트 이름에서 반복적인 단어를 사용할 때, 다른 기본 로마자가 사용되었을 경우, 로마자 필드에 반드시 제공된 로마자 표기법만 사용하고 중복된 단어는 제거해야 합니다. (예시 : " 조헤련과 태보의 저주 Curse of Cho Hye-ryeon and Tae-bo" → " Curse of Cho Hye-ryeon and Tae-bo ")**
+- **독일어 메타데이터를 가진 노래는 umlauts를 두문자로 변환시켜야 합니다.(`ue`, `oe`, `ae` and `ss`).**
+- **러시아어/시리아어 메타데이터가 있는 노래는 로마자 필드에서 BGN/PCGN 시스템 방식을 사용하여 로마자 표기법을 적용하셔야 합니다. 매퍼가 로마자화시켜서 출처를 적기를 원하는 경우 같은 규정이 출처란에도 적용됩니다. Е 와 е는 혼자서 있거나 `a`, `e`, `ё`, `и`, `о`, `у`, `ы`, `э`, `ю`, `я`, `й`, `ъ`, `ь` 뒤에 있을 때 `ye` 로 로마자화 해야 합니다. 그 이외의 경우에는 `e` 로마자화 해야 합니다.  `ё` 는 `yo` 로 로마자호 해야 하지만, `ж`, `ч`, `ш`, `щ` 뒤에 있는 경우 'o' 를 써야 합니다. 파일에 제공된 다른 규정은 무시하십시오. 다른 대부분의 문자는 [이 문서의 첫 페이지를 참조하십시오](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/807920/ROMANIZATION_OF_RUSSIAN.pdf).
+- **일본 메타데이터가 있는 노래는 반드시 개정된 헵번 로마자 표기법을 사용하여 로마자화 해야 합니다.** 매퍼에 의해 관리된 출처가 선호되는 경우 출처 필드에도 동일하게 적용됩니다. 비 유니코드 분야로서 `おう` , `うう` 등의 장모음을 ou,uu로 로마화되는것을 피하셔야 합니다.
+- **중국 메타데이터가 있는 노래는 아티스트 이름을 제외하고 문자별로 로마자 표기법을 사용하여 소속된 중국어의 성조와 방언에 대해 다루셔야 합니다. 또한 어떤 경우에도 모든 성조표기를 생략하셔야 합니다.** 어떤 경우든 모든 분음 부호는 생략하셔야 합니다.:
+  - 만다린 메타데이터는 반드시 Hanyu Pinyin 시스템을 사용하여 로마자 표기법을 적용해야 합니다.
+  - 광동어 메타데이터는 반드시 Jyutping 시스템을 사용하여 로마자 표기법을 적용해야 합니다.
+  - 노래가 어느 범주에 속하지 않을 경우, 이 선택을 매퍼의 재량에 맡겨진다.
 
-### Guidelines
+### Guidelines(가이드라인)
 
-- **When a song is covered or remixed and has metadata varying from the original song, use common sense to determine whether the variation was a mistake or an intentional artist choice.**
+- **어떤 노래가 커버되거나 리믹스되어 원래 노래와 다른 메타데이터를 가지고 있을 때, 그 변화가 실수였는지 아니면 아티스트의 의도적인 선택이었는지는 상식적으로 판단하여 기재하십시오.**
 
 #### Technical
 
-- **If the creator of the mapset has remixed or covered the song, they are free to name it appropriately to signal that this song is a special version.** In this case the original songs should still be clearly indicated in the title or tags in order for players to be able to search for the original songs.
-- **In the case of compilations or remixes, the original song title(s) and artist(s) should be included in tags.** This is to ensure that players can find all beatmaps of one song by searching the same thing without getting vastly different results.
-- **Songs with metadata that contains ambiguous or hard to write unicode characters should add easily searchable variations or romanisations of these words to the beatmapset's tags.**
-- **If the source of the song is available in both unicode and romanised formats, the option not used in the source field should be added to tags**
-- **Song genre and language should be added to the tags of a beatmap.** This is to enable users to search using these terms in-game like they do on the website. For instrumental tracks, "instrumental" is considered the language tag. Exceptions would be when language and/or genre are not clear, or multiple apply. In case of the latter, one fitting tag for each may be applied.
-- **Additional Tags: It is recommended to include tags such related artists, alternate titles for the song, alternate spellings of an artist name, simplified contractions for words in metadata fields, and whatever may aid a player to find the map.**
+- **만약 맵 제작자가 곡을 리믹스하거나 커버했다면, 이 노래가 특별한 버전임을 알리기 위해 자유롭게 이름을 지을 수 있습니다.** 이 경우, 플레이어들이 원곡을 검색할 수 있도록 원곡을 제목이나 태그에 명확히 표시해야 합니다.
+- **compilations(노래 모음집) 이나 리믹스의 경우, 원곡 제목과 아티스트가 태그에 포함되어야 합니다.** 이것은 플레이어들이 같은것을 검색함으로써 크게 다른 검색결과를 얻지 않고 한 곡의 모든 비트맵을 찾을 수 있도록 하기 위함입니다.
+- **메타데이터로 사용하기 어려운 유니코드 문자나 쓰기 애매모호한 메타데이터가 포함된 노래는 비트맵셋의 태그에 검색 가능한 다양한 단어나 로마자화 한것을 추가하셔야 합니다.**
+- **노래의 출처로 유니코드 형식과 로마자 형식 모두 사용할 수 있는 경우, 출처 필드에서 사용하지 않는 옵션을 태그에 추가하셔야 합니다.**
+- **노래의 장르와 언어를 비트맵의 태그에 적으셔야 합니다.** 이것은 웹사이트에서처럼, 유저들이 게임속에서 장르, 언어를 검색함으로써 비트맵을 찾을수 있도록 하기 위함입니다. 악기를 사용하는 트랙의 경우, "instrumental" 를 언어 태그로 간주합니다. 언어 및 장르가 명확하지 않거나 여러가지가 삽입된 경우는 예외가 될 수 있습니다. 후자의 경우 각각 따로따로 적는것이 가장 좋습니다.
+- **추가 태그: 노래와 관련된 아티스트, 노래의 대체 제목, 아티스트 이름의 대체 철자, 메타데이터 필드의 단어의 축소된 버전 및 플레이어가 비트맵을 찾는데 도움이 될 수 있는 모든 태그를 포함하는 것이 좋습니다.**
 
-#### Standardisation
+#### Standardisation(표준화)
 
-All forms of Artist/Title standardisation apply to both the `Romanised` and `Unicode` fields, excluding standardised whitespaces for full-width characters.
+모든 형태의 아티스트,제목 표준화는 전각 문자의 표준화 된 공백을 제외하고 로마자와 유니코드 필드에 동일하게 적용됩니다.
 
-- **Logos should not be used as references for capitalisation of titles or artists.** Because logos are often stylised, apply standard capitalisation unless other textual metadata supports it.
-- **Tracks created by artists belonging to doujin circles should list the circle's name as the main artist.** The exception to this is when the artist(s) of a given track is well-known enough by their own name. In this case, the specific artist name(s) may be used instead.
-- **If the same song exists in the Ranked or Loved sections already, the metadata should be followed unless it breaks other rules in the Ranking Criteria or the official sources state something completely different.**
-- **Artist names should be consistent between different songs from the same person or group in the Ranked or Loved sections.** This does not apply if the person or group intentionally uses a different alias for different song or album releases.
-- **Single symbols should be romanised so that they have leading and trailing whitespaces, unless the symbol itself is not commonly requiring whitespaces in English.** This may be ignored if the artist purposefully uses special characters that ignore their common usages.
+- **로고에 쓰여진 아티스트명이나 제목은 제목, 아티스트 필드에 참고 자료로 사용하실 수 없습니다.** 로고는 종종 양식화되기 때문에 대소문자 구별이 확실하지 않아 기존 텍스트 메타데이터를 지원하지 않을 경우에만 적용 가능합니다.
+- **동인서클 소속의 아티스트들이 만든 트랙은 원래 서클의 이름을 메인 아티스트로 기재하셔야 합니다.** 이에 대한 예외는 트랙의 아티스트의 이름이 충분히 알려진 경우입니다. 이 경우, 특정 아티스트 이름을 대신 사용하실 수 있습니다.
+- **같은 노래가 이미 랭크맵 구간에 존재하는 경우, 랭크 기준이나 공식 출처에서 다른 규칙을 위반하지 않는 한, 같은 메타데이터를 따르셔야 합니다.**
+- **아티스트의 이름은 같은 아티스트의 다른 랭크맵, 러브드맵과 일관성있게 표기되어야 합니다.** 개인이나 그룹이 다른 노래나 앨범 발매로 인해 의도적으로 다른 이름을 사용하는 경우에는 적용되지 않습니다.
+- **특정 기호 자체가 일반적으로 영어로 공백을 요구하지 않는 한, 단일 기호는 선행 및 후행의 공백을 가지도록 로마화하셔야 합니다.** 만약 아티스트가 그들의 공통적인 사용을 무시하는 특별한 캐릭터(기호 따위의 문자)를 의도적으로 사용하는 경우, 이는 무시될 수 있습니다.
 
-### Allowances
+### Allowances(참작)
 
-This category contains explicit allowance statements of concepts and rules that are not commonly straightforward even after reading this whole section of the Ranking Criteria.
+이 카테고리에는 랭크 기준의 전체 섹션을 읽은 후에도 일반적으로 간단하지 않은 개념 및 규칙에 대해 명시적으로 허용되는 설명이 포함됩니다.
 
-- **For songs where the composer(s) and singer(s) are different people, the singer(s) may be listed after the composer(s) or circle/group name following a `feat.` indicator.**
+- **작곡가와 가수가 동일인물이 아닌 노래의 경우, 가수는 작곡가나 서클/그룹의 이름 뒤에 `feat.` 와 함께 적으실 수 있습니다.**
 - **If an artist has provided an official translation for their name, this may be used in the romanised artist field.** Official romanisation may be used for the spelling of an artist's name, but the name order must follow the related rule.
 - **If a Unicode Song title has either an official translation or romanisation provided by the artist, either or may be used in the romanised title field.**
 - **If a mapset track was contributed to by multiple artists, they may be listed with commas inbetween.** If there are 3 or more contributing artists and they are not part of one officially labelled group, `Various Artists` or other descriptive artist labels may be used instead.
